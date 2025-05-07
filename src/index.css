@@ -3,3 +3,29 @@ html, body, #root {
   margin: 0;
   padding: 0;
 }
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

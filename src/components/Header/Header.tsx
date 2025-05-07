@@ -3,7 +3,7 @@ import { header, headerTitle, navList, navListItem } from "./header.style.css";
 const Header = () => {
   return (
     <header className={header}>
-      <h1 className={headerTitle}>Luiz Preto</h1>
+      <p className={headerTitle}>Luiz Preto</p>
       <nav>
         <ul className={navList}>
           <li className={navListItem}>Sobre</li>

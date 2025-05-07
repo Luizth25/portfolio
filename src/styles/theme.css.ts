@@ -9,6 +9,7 @@ export const vars = createThemeContract({
     primary: null,
     secondary: null,
     border: null,
+    textPrimary: null,
   },
   font: {
     body: null,
@@ -20,9 +21,10 @@ export const vars = createThemeContract({
 export const darkTheme = createTheme(vars, {
   color: {
     background: "#0A0E1A",
-    surface: "#1B2A41",
+    surface: "#1B2A40",
     text: "#FFFFFF",
     textMuted: "#C2C2C2",
+    textPrimary: "#f4eada",
     primary: "#FF6B35",
     secondary: "#3A7CA5",
     border: "#2C3A4F",
@@ -40,6 +42,7 @@ export const lightTheme = createTheme(vars, {
     surface: "#FFFFFF",
     text: "#0A0E1A",
     textMuted: "#5C5C5C",
+    textPrimary: "#1f1f1f",
     primary: "#FF6B35",
     secondary: "#3A7CA5",
     border: "#D0D0D0",
@@ -66,10 +69,9 @@ export const buttonTheme = style({
   padding: "12px 20px",
   borderRadius: 8,
   border: "none",
-  marginTop: 16,
   cursor: "pointer",
   position: "absolute",
   fontSize: 20,
-  top: 25,
+  top: 8,
   right: 20,
 });
