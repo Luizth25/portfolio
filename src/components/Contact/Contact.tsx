@@ -1,6 +1,6 @@
 import { EnvelopeSimple, GithubLogo, LinkedinLogo } from '@phosphor-icons/react';
 import SectionTitle from "../SectionTitle";
-import { contactLink, contactLinkContainer } from './Contact.css';
+import { constactParagraph, contactLink, contactLinkContainer } from './Contact.css';
 
 const Contact = () => {
   const Icons = [
@@ -23,9 +23,9 @@ const Contact = () => {
 
 
   return (
-    <section>
+    <section id="contact">
       <SectionTitle title="Contact" />
-        <p style={{ marginTop: "10px", maxWidth: "600px", lineHeight: "1.6" }}>
+        <p className={constactParagraph}>
           Se quiser trocar uma ideia, colaborar ou tirar dúvidas, estou à disposição.  
           Me chama no e-mail ou nas redes abaixo!
         </p>

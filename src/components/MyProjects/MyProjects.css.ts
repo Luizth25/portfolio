@@ -8,7 +8,7 @@ export const projectsContainer = style({
 });
 
 export const projectCard = style({
-  border: `1px solid ${vars.color.border}`,
+  border: `1px solid ${vars.color.secondary}`,
   display: "flex",
   flexDirection: "column",
   gap: "0.8rem",
@@ -34,4 +34,15 @@ export const projectTitle = style({
 export const projectDescription = style({
   color: vars.color.textMuted,
   fontSize: "1rem",
+});
+
+export const projectLink = style({
+  textDecoration: "none",
+  color: vars.color.secondary,
+  fontWeight: "bold",
+  selectors: {
+    "&:hover": {
+      color: vars.color.primary,
+    },
+  },
 });

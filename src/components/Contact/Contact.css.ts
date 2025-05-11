@@ -23,3 +23,12 @@ export const contactLinkContainer = style({
   marginTop: "30px",
   flexWrap: "wrap",
 });
+
+export const constactParagraph = style({
+  color: vars.color.textPrimary,
+  fontSize: "1.3rem",
+  lineHeight: "1.5rem",
+  marginTop: "1rem",
+  maxWidth: "800px",
+  width: "100%",
+});

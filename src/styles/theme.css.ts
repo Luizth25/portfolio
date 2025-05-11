@@ -6,10 +6,10 @@ export const vars = createThemeContract({
     surface: null,
     text: null,
     textMuted: null,
+    textPrimary: null,
     primary: null,
     secondary: null,
     border: null,
-    textPrimary: null,
   },
   font: {
     body: null,
@@ -17,17 +17,17 @@ export const vars = createThemeContract({
   },
 });
 
-// 🌙 Tema escuro
+// 🌙 Tema escuro inspirado no Japão
 export const darkTheme = createTheme(vars, {
   color: {
-    background: "#0A0E1A",
-    surface: "#1B2A40",
-    text: "#FFFFFF",
-    textMuted: "#C2C2C2",
-    textPrimary: "#f4eada",
-    primary: "#FF6B35",
-    secondary: "#3A7CA5",
-    border: "#2C3A4F",
+    background: "#0B0B10",
+    surface: "#1E1E24",
+    text: "#F4EADA",
+    textMuted: "#A0A0A0",
+    textPrimary: "#FFD7BA",
+    primary: "#B5332A",
+    secondary: "#A3B18A",
+    border: "#332F2E",
   },
   font: {
     body: "Inter, sans-serif",
@@ -35,17 +35,17 @@ export const darkTheme = createTheme(vars, {
   },
 });
 
-// ☀️ Tema claro
+// ☀️ Tema claro inspirado no Japão
 export const lightTheme = createTheme(vars, {
   color: {
-    background: "#F4F4F9",
+    background: "#FFF8F0",
     surface: "#FFFFFF",
-    text: "#0A0E1A",
-    textMuted: "#5C5C5C",
-    textPrimary: "#1f1f1f",
-    primary: "#FF6B35",
-    secondary: "#3A7CA5",
-    border: "#D0D0D0",
+    text: "#312C2A",
+    textMuted: "#666666",
+    textPrimary: "#3B2F2F",
+    primary: "#B5332A",
+    secondary: "#A3B18A",
+    border: "#E5D3B3",
   },
   font: {
     body: "Inter, sans-serif",
@@ -53,7 +53,7 @@ export const lightTheme = createTheme(vars, {
   },
 });
 
-// Estilo para aplicar no body
+// Estilo base do body
 export const bodyBase = style({
   backgroundColor: vars.color.background,
   color: vars.color.text,

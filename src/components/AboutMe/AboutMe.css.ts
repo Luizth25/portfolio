@@ -7,7 +7,7 @@ export const aboutMeContainer = style({
   flexDirection: "column",
   width: "100%",
   borderRadius: "8px",
-  borderLeft: `4px solid ${vars.color.primary}`,
+  borderLeft: `4px solid ${vars.color.secondary}`,
   marginTop: "1rem",
   paddingLeft: "16px",
 });

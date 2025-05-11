@@ -3,7 +3,7 @@ import { aboutMeContainer, aboutMeSection, aboutMeText } from "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <section className={aboutMeSection}>
+    <section id="about" className={aboutMeSection}>
       <SectionTitle title="Sobre mim" />
       <div className={aboutMeContainer}>
       <p className={aboutMeText}>
