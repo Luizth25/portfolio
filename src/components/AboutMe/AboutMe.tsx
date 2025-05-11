@@ -1,4 +1,5 @@
 import SectionTitle from "../SectionTitle";
+import TechTags from "../TechTags";
 import { aboutMeContainer, aboutMeSection, aboutMeText } from "./AboutMe.css";
 
 const AboutMe = () => {
@@ -18,6 +19,7 @@ const AboutMe = () => {
           qualidade.
         </p>
       </div>
+      <TechTags />
     </section>
   );
 }

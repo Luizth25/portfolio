@@ -21,7 +21,7 @@ export const wavingHand = style({
 export const homeContainer = style({
   display: "flex",
   flexDirection: "column",
-  gap: "7rem",
+  gap: "6rem",
   padding: "2rem 0",
   backgroundColor: vars.color.background,
 });
