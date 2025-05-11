@@ -61,17 +61,3 @@ export const bodyBase = style({
   margin: 0,
   minHeight: "100vh",
 });
-
-// Botao do tema
-export const buttonTheme = style({
-  background: "transparent",
-  color: vars.color.text,
-  padding: "12px 20px",
-  borderRadius: 8,
-  border: "none",
-  cursor: "pointer",
-  position: "absolute",
-  fontSize: 20,
-  top: 8,
-  right: 20,
-});

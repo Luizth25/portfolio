@@ -15,9 +15,15 @@ export const projectCard = style({
   padding: "1rem",
   margin: "0",
   borderRadius: "8px",
-  backgroundColor: vars.color.surface,
+  transition: "all 0.3s ease",
   maxWidth: "300px",
   width: "100%",
+  selectors: {
+    "&:hover": {
+      transform: "translateX(4px)",
+      borderColor: vars.color.primary,
+    },
+  },
 });
 
 export const projectTitle = style({

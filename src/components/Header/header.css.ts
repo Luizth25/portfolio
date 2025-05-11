@@ -2,10 +2,16 @@ import { style } from "@vanilla-extract/css";
 import { vars } from "../../styles/theme.css";
 
 export const header = style({
+  position: "fixed",
+  top: 0,
+  left: 0,
+  width: "100%",
+  zIndex: 1000,
+  background: vars.color.background,
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
-  padding: "4px 20px 4px 0",
+  padding: "20px",
   color: vars.color.text,
 });
 
@@ -35,4 +41,16 @@ export const navListItem = style({
       display: "none",
     },
   },
+});
+
+export const buttonTheme = style({
+  background: "transparent",
+  color: vars.color.text,
+  padding: "12px 20px",
+  borderRadius: 8,
+  border: "none",
+  cursor: "pointer",
+  position: "absolute",
+  top: 2,
+  right: 20,
 });
