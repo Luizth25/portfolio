@@ -1,6 +1,6 @@
 # 🌐 Luiz Felipe – Portfólio Pessoal
 
-Bem-vindo ao meu portfólio! Este projeto tem como objetivo apresentar minhas habilidades como desenvolvedor front-end, com foco em React, TypeScript, Vanilla Extract e integrações modernas como Spotify.
+Bem-vindo ao meu portfólio! Este projeto tem como objetivo apresentar minhas habilidades como desenvolvedor front-end, com foco em React, TypeScript, Vanilla Extract
 
 ---
 
@@ -38,9 +38,7 @@ npm run dev
 
 ## 📁 Estrutura do Projeto
 
-```
-
-```
+```txt
 
 .
 ├── public/
