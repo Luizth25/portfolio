@@ -38,8 +38,6 @@ npm run dev
 
 ## 📁 Estrutura do Projeto
 
-```
-
 ```txt
 
 .
