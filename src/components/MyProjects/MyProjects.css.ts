@@ -18,6 +18,7 @@ export const projectCard = style({
   transition: "all 0.3s ease",
   maxWidth: "300px",
   width: "100%",
+  justifyContent: "space-between",
   selectors: {
     "&:hover": {
       transform: "translateX(4px)",
@@ -45,4 +46,10 @@ export const projectLink = style({
       color: vars.color.primary,
     },
   },
+});
+
+export const projectImage = style({
+  width: "100%",
+  height: "auto",
+  borderRadius: "8px",
 });
