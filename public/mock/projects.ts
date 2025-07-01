@@ -31,4 +31,20 @@ export const mockProjects = [
     Image: "/images/projects/web-chat.png",
     link: "https://web-chatao.netlify.app/",
   },
+  {
+    id: 5,
+    name: "Quiz Game",
+    description:
+      "quiz-game-vue é um projeto de quiz interativo de perguntas e respostas, desenvolvido com Vue 3, TypeScript e vue-class-component. O jogo consome dados da API pública Open Trivia DB para exibir perguntas aleatórias, embaralha as alternativas, e registra a pontuação em tempo real.",
+    Image: "/images/projects/quiz-game.png",
+    link: "https://quiz-game-vue.netlify.app/",
+  },
+  {
+    id: 6,
+    name: "Self Service Order",
+    description:
+      "Self Service Order é um sistema de autoatendimento simples, leve e responsivo, desenvolvido com HTML, CSS e Vue 3 (via CDN). O objetivo do projeto é simular uma experiência real de pedidos em totens de lanchonetes ou restaurantes, onde o próprio cliente seleciona os itens, ajusta a quantidade e visualiza o resumo do pedido em tempo real.",
+    Image: "/images/projects/self-service-order.png",
+    link: "https://self-service-order.netlify.app/",
+  },
 ];
