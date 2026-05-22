@@ -56,6 +56,17 @@ export const mockProjects = [
   },
   {
     id: 6,
+    name: "Yu-Gi-Oh! Card Info Plugin",
+    category: "Plugin Codex + MCP",
+    description:
+      "Plugin local para consultar dados de cartas Yu-Gi-Oh! no Codex, usando um servidor MCP integrado à API pública YGOPRODeck.",
+    highlights: ["MCP server", "Skills em PT/EN", "Busca, banlist e filtros"],
+    stack: ["Node.js", "MCP", "Codex Skills"],
+    Image: "/images/projects/yugioh-card-info-plugin.svg",
+    link: "https://github.com/Luizth25/Yu-Gi-Oh-Card-Info-plugin",
+  },
+  {
+    id: 7,
     name: "Self Service Order",
     category: "Fluxo de autoatendimento",
     description:

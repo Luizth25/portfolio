@@ -1,0 +1,37 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" fill="#0A0A0D"/>
+  <rect x="72" y="72" width="1056" height="606" rx="28" fill="#171417" stroke="#332B2A" stroke-width="3"/>
+  <circle cx="998" cy="152" r="88" fill="#B5332A" fill-opacity="0.22"/>
+  <circle cx="196" cy="606" r="112" fill="#A6B392" fill-opacity="0.18"/>
+  <g filter="url(#shadow)">
+    <rect x="126" y="154" width="284" height="404" rx="24" fill="#2B1A15" stroke="#C89B4E" stroke-width="4"/>
+    <rect x="154" y="184" width="228" height="344" rx="16" fill="#B5332A"/>
+    <rect x="182" y="216" width="172" height="242" rx="12" fill="#F1D7C7" fill-opacity="0.18"/>
+    <path d="M268 254L306 318L268 382L230 318L268 254Z" fill="#C89B4E"/>
+    <path d="M218 486H318" stroke="#F1D7C7" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <rect x="484" y="164" width="568" height="312" rx="20" fill="#0F0F14" stroke="#332B2A" stroke-width="3"/>
+  <text x="526" y="224" fill="#A6B392" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">yugioh-card-info</text>
+  <text x="526" y="282" fill="#F4EADA" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800">Codex Plugin</text>
+  <text x="526" y="336" fill="#A99F97" font-family="Inter, Arial, sans-serif" font-size="28">MCP server powered by YGOPRODeck API</text>
+  <rect x="526" y="386" width="156" height="44" rx="22" fill="#B5332A"/>
+  <rect x="700" y="386" width="132" height="44" rx="22" fill="#A6B392"/>
+  <rect x="850" y="386" width="148" height="44" rx="22" fill="#C89B4E"/>
+  <text x="558" y="416" fill="#FFF9F2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">MCP</text>
+  <text x="731" y="416" fill="#0A0A0D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Skills</text>
+  <text x="883" y="416" fill="#0A0A0D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Cards</text>
+  <rect x="484" y="508" width="568" height="94" rx="18" fill="#111116" stroke="#332B2A" stroke-width="3"/>
+  <text x="526" y="564" fill="#F4EADA" font-family="JetBrains Mono, Consolas, monospace" font-size="28">$ search_cards --name "Dark Magician"</text>
+  <defs>
+    <filter id="shadow" x="98" y="130" width="340" height="460" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="8"/>
+      <feGaussianBlur stdDeviation="14"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.26 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+</svg>
