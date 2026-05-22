@@ -19,6 +19,6 @@ export const aboutMeSection = style({
 
 export const aboutMeText = style({
   color: vars.color.textPrimary,
-  fontSize: "1.3rem",
-  lineHeight: "1.5rem",
+  fontSize: "1.125rem",
+  lineHeight: "1.8rem",
 });

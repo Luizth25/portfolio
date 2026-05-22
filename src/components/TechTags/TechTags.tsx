@@ -8,17 +8,20 @@ const TechTags = () => {
     { name: "CSS3", key: "css" },
     { name: "React", key: "react" },
     { name: "Next.js", key: "nextjs" },
-    { name: "Node.js", key: "nodejs" },
-    { name: "Angular", key: "angular" },
+    { name: "styled-components", key: "styledComponents" },
     { name: "React Native", key: "reactnative" },
     { name: "Tailwind", key: "tailwind" },
     { name: "Vanilla Extract", key: "vanillExtract" },
+    { name: "Design Systems", key: "designSystems" },
+    { name: "Web Components", key: "webComponents" },
+    { name: "REST APIs", key: "restApis" },
+    { name: "Codex", key: "codex" },
+    { name: "Kiro", key: "kiro" },
+    { name: "Plugins & Skills", key: "pluginsSkills" },
     { name: "Bootstrap", key: "bootstrap" },
     { name: "jQuery", key: "jquery" },
     { name: "SCSS", key: "scss" },
   ];
-  
-
 
   return (
     <div className={tagContainer}>
@@ -31,7 +34,7 @@ const TechTags = () => {
         </span>
       ))}
     </div>
-  )
+  );
 }
 
 export default TechTags;

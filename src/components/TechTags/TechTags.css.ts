@@ -41,12 +41,8 @@ export const techTag = styleVariants({
     backgroundColor: "#000000",
     color: "#ffffff",
   },
-  nodejs: {
-    backgroundColor: "#3C873A",
-    color: "#ffffff",
-  },
-  angular: {
-    backgroundColor: "#DD0031",
+  styledComponents: {
+    backgroundColor: "#DB7093",
     color: "#ffffff",
   },
   reactnative: {
@@ -59,6 +55,30 @@ export const techTag = styleVariants({
   },
   vanillExtract: {
     backgroundColor: "#6466e9",
+    color: "#ffffff",
+  },
+  designSystems: {
+    backgroundColor: "#0F766E",
+    color: "#ffffff",
+  },
+  webComponents: {
+    backgroundColor: "#F59E0B",
+    color: "#000000",
+  },
+  restApis: {
+    backgroundColor: "#2563EB",
+    color: "#ffffff",
+  },
+  codex: {
+    backgroundColor: "#111827",
+    color: "#ffffff",
+  },
+  kiro: {
+    backgroundColor: "#7C3AED",
+    color: "#ffffff",
+  },
+  pluginsSkills: {
+    backgroundColor: "#16A34A",
     color: "#ffffff",
   },
   jquery: {
