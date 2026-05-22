@@ -1,11 +1,41 @@
 import SectionTitle from "../SectionTitle";
 import TechTags from "../TechTags";
-import { aboutMeContainer, aboutMeSection, aboutMeText } from "./AboutMe.css";
+import {
+  aboutCard,
+  aboutCards,
+  aboutMeContainer,
+  aboutMeSection,
+  aboutMeText,
+  aboutSectionIntro,
+} from "./AboutMe.css";
+
+const specialties = [
+  {
+    title: "Interfaces modernas",
+    description: "React, TypeScript, Next.js e arquitetura de componentes para produtos responsivos.",
+  },
+  {
+    title: "Design Systems",
+    description: "Componentização, padrões visuais e reutilização para escalar interfaces com consistência.",
+  },
+  {
+    title: "IA no workflow",
+    description: "Automação com Codex, Kiro, plugins e skills para acelerar design, código e revisão.",
+  },
+  {
+    title: "Qualidade front-end",
+    description: "Performance, acessibilidade, integração com APIs REST e modernização de legados.",
+  },
+];
 
 const AboutMe = () => {
   return (
     <section id="about" className={aboutMeSection}>
       <SectionTitle title="Sobre mim" />
+      <p className={aboutSectionIntro}>
+        Desenvolvedor front-end focado em construir produtos digitais bem estruturados,
+        fáceis de evoluir e prontos para uso real.
+      </p>
       <div className={aboutMeContainer}>
         <p className={aboutMeText}>
           Sou Luiz Felipe, desenvolvedor front-end com foco na construção de interfaces
@@ -30,6 +60,14 @@ const AboutMe = () => {
           constante, buscando sempre entregar soluções bem estruturadas, performáticas e com
           atenção aos detalhes.
         </p>
+        <div className={aboutCards}>
+          {specialties.map((item) => (
+            <article className={aboutCard} key={item.title}>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </article>
+          ))}
+        </div>
       </div>
       <TechTags />
     </section>

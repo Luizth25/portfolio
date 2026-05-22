@@ -12,8 +12,21 @@ html, body, #root {
 }
 
 body {
-  line-height: 1;
+  line-height: 1.5;
   font-family: Arial, sans-serif;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+button {
+  border: 0;
+}
+
+a {
+  color: inherit;
 }
 
 ol, ul {

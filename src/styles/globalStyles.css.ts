@@ -3,5 +3,7 @@ import { vars } from "./theme.css";
 
 export const sectionTitle = style({
   color: vars.color.primary,
-  fontSize: "2.6rem",
+  fontSize: "clamp(2rem, 5vw, 2.6rem)",
+  lineHeight: 1.1,
+  marginBottom: "0.5rem",
 });

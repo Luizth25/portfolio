@@ -1,8 +1,9 @@
 import Home from './pages/Home';
+import { appShell } from './App.css';
 
 export default function App() {
   return (
-    <div style={{ padding: '64px 20px',}}>
+    <div className={appShell}>
       <Home />
     </div>
   );
