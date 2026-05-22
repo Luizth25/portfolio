@@ -1,6 +1,17 @@
 export const mockProjects = [
   {
     id: 1,
+    name: "Yu-Gi-Oh! Card Info Plugin",
+    category: "Plugin Codex + MCP",
+    description:
+      "Plugin local para consultar dados de cartas Yu-Gi-Oh! no Codex, usando um servidor MCP integrado à API pública YGOPRODeck.",
+    highlights: ["MCP server", "Skills em PT/EN", "Busca, banlist e filtros"],
+    stack: ["Node.js", "MCP", "Codex Skills"],
+    Image: "/images/projects/yugioh-card-info-plugin.svg",
+    link: "https://github.com/Luizth25/Yu-Gi-Oh-Card-Info-plugin",
+  },
+  {
+    id: 2,
     name: "Pokedex",
     category: "SPA com consumo de API",
     description:
@@ -11,7 +22,7 @@ export const mockProjects = [
     link: "https://pokesearchdex.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     name: "Perguntonildo",
     category: "Experiência interativa",
     description:
@@ -22,7 +33,7 @@ export const mockProjects = [
     link: "https://perguntonildo.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Pixel Quest",
     category: "Produtividade gamificada",
     description:
@@ -33,7 +44,7 @@ export const mockProjects = [
     link: "https://pixelquests.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "Web Chat",
     category: "Interface de mensageria",
     description:
@@ -44,7 +55,7 @@ export const mockProjects = [
     link: "https://web-chatao.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "Quiz Game",
     category: "Jogo web",
     description:
@@ -53,17 +64,6 @@ export const mockProjects = [
     stack: ["Vue", "TypeScript", "API REST"],
     Image: "/images/projects/quiz-game.png",
     link: "https://quiz-game-vue.netlify.app/",
-  },
-  {
-    id: 6,
-    name: "Yu-Gi-Oh! Card Info Plugin",
-    category: "Plugin Codex + MCP",
-    description:
-      "Plugin local para consultar dados de cartas Yu-Gi-Oh! no Codex, usando um servidor MCP integrado à API pública YGOPRODeck.",
-    highlights: ["MCP server", "Skills em PT/EN", "Busca, banlist e filtros"],
-    stack: ["Node.js", "MCP", "Codex Skills"],
-    Image: "/images/projects/yugioh-card-info-plugin.svg",
-    link: "https://github.com/Luizth25/Yu-Gi-Oh-Card-Info-plugin",
   },
   {
     id: 7,
