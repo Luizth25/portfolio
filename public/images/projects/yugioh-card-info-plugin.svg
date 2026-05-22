@@ -10,18 +10,19 @@
     <path d="M268 254L306 318L268 382L230 318L268 254Z" fill="#C89B4E"/>
     <path d="M218 486H318" stroke="#F1D7C7" stroke-width="12" stroke-linecap="round"/>
   </g>
-  <rect x="484" y="164" width="568" height="312" rx="20" fill="#0F0F14" stroke="#332B2A" stroke-width="3"/>
-  <text x="526" y="224" fill="#A6B392" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">yugioh-card-info</text>
-  <text x="526" y="282" fill="#F4EADA" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800">Codex Plugin</text>
-  <text x="526" y="336" fill="#A99F97" font-family="Inter, Arial, sans-serif" font-size="28">MCP server powered by YGOPRODeck API</text>
-  <rect x="526" y="386" width="156" height="44" rx="22" fill="#B5332A"/>
-  <rect x="700" y="386" width="132" height="44" rx="22" fill="#A6B392"/>
-  <rect x="850" y="386" width="148" height="44" rx="22" fill="#C89B4E"/>
-  <text x="558" y="416" fill="#FFF9F2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">MCP</text>
-  <text x="731" y="416" fill="#0A0A0D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Skills</text>
-  <text x="883" y="416" fill="#0A0A0D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Cards</text>
-  <rect x="484" y="508" width="568" height="94" rx="18" fill="#111116" stroke="#332B2A" stroke-width="3"/>
-  <text x="526" y="564" fill="#F4EADA" font-family="JetBrains Mono, Consolas, monospace" font-size="28">$ search_cards --name "Dark Magician"</text>
+  <rect x="472" y="154" width="600" height="322" rx="20" fill="#0F0F14" stroke="#332B2A" stroke-width="3"/>
+  <text x="514" y="212" fill="#A6B392" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">yugioh-card-info</text>
+  <text x="514" y="274" fill="#F4EADA" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="800">Codex Plugin</text>
+  <text x="514" y="326" fill="#A99F97" font-family="Inter, Arial, sans-serif" font-size="24">MCP server for Yu-Gi-Oh! card data</text>
+  <text x="514" y="360" fill="#A99F97" font-family="Inter, Arial, sans-serif" font-size="24">powered by YGOPRODeck API</text>
+  <rect x="514" y="396" width="138" height="42" rx="21" fill="#B5332A"/>
+  <rect x="668" y="396" width="122" height="42" rx="21" fill="#A6B392"/>
+  <rect x="806" y="396" width="136" height="42" rx="21" fill="#C89B4E"/>
+  <text x="558" y="424" fill="#FFF9F2" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">MCP</text>
+  <text x="704" y="424" fill="#0A0A0D" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Skills</text>
+  <text x="842" y="424" fill="#0A0A0D" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Cards</text>
+  <rect x="472" y="508" width="600" height="94" rx="18" fill="#111116" stroke="#332B2A" stroke-width="3"/>
+  <text x="514" y="565" fill="#F4EADA" font-family="JetBrains Mono, Consolas, monospace" font-size="24">$ search_cards --name Dark Magician</text>
   <defs>
     <filter id="shadow" x="98" y="130" width="340" height="460" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>

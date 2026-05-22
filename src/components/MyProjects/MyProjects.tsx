@@ -1,5 +1,5 @@
 import { CaretLeft, CaretRight } from "@phosphor-icons/react";
-import { useEffect, useRef, useState, type MouseEvent, type PointerEvent } from "react";
+import { useEffect, useRef, useState, type PointerEvent } from "react";
 import { mockProjects } from "../../../public/mock/projects";
 import SectionTitle from "../SectionTitle";
 import {
@@ -29,7 +29,6 @@ import {
 const MyProjects = () => { 
   const carouselRef = useRef<HTMLDivElement>(null);
   const isDraggingRef = useRef(false);
-  const hasDraggedRef = useRef(false);
   const startXRef = useRef(0);
   const scrollLeftRef = useRef(0);
   const [atStart, setAtStart] = useState(true);
@@ -76,13 +75,13 @@ const MyProjects = () => {
 
   const startDragging = (event: PointerEvent<HTMLDivElement>) => {
     const carousel = carouselRef.current;
+    const target = event.target as HTMLElement;
 
-    if (!carousel) {
+    if (!carousel || target.closest("a, button")) {
       return;
     }
 
     isDraggingRef.current = true;
-    hasDraggedRef.current = false;
     startXRef.current = event.clientX;
     scrollLeftRef.current = carousel.scrollLeft;
     carousel.setPointerCapture(event.pointerId);
@@ -96,10 +95,6 @@ const MyProjects = () => {
     }
 
     const distance = event.clientX - startXRef.current;
-
-    if (Math.abs(distance) > 6) {
-      hasDraggedRef.current = true;
-    }
 
     carousel.scrollLeft = scrollLeftRef.current - distance;
     updateCarouselEdges();
@@ -119,16 +114,6 @@ const MyProjects = () => {
     }
 
     updateCarouselEdges();
-  };
-
-  const preventClickAfterDrag = (event: MouseEvent<HTMLDivElement>) => {
-    if (!hasDraggedRef.current) {
-      return;
-    }
-
-    event.preventDefault();
-    event.stopPropagation();
-    hasDraggedRef.current = false;
   };
 
   return (
@@ -167,7 +152,6 @@ const MyProjects = () => {
           onPointerUp={stopDragging}
           onPointerCancel={stopDragging}
           onPointerLeave={stopDragging}
-          onClickCapture={preventClickAfterDrag}
           onScroll={updateCarouselEdges}
         >
           {mockProjects.map((project) => (
